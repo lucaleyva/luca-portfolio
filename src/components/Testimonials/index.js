@@ -1,18 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Card from '../Card';
 import testimonialsData from '../../assets/testimonials.json';
 import Pagination from '../Pagination';
 import './styles.css';
 
-const TestimonialCard = ({ testimonial }) => (
-  <div className="testimonial-card">
-    <img src={testimonial.image} alt={testimonial.name} className="testimonial-image" />
-    <div className="testimonial-content">
-      <h3 className="testimonial-name">{testimonial.name}</h3>
-      <p className="testimonial-title">{testimonial.title}</p>
-      <p className="testimonial-text">{testimonial.text}</p>
-    </div>
-  </div>
-);
+
 
 const Testimonials = () => {
   const [testimonials, setTestimonials] = useState([]);
@@ -41,7 +33,7 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
       <div className="testimonial-container">
         {currentTestimonials.map((testimonial, index) => (
-          <TestimonialCard key={index} testimonial={testimonial} />
+          <Card key={index} card={testimonial} />
         ))}
       </div>
       <Pagination

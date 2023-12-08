@@ -1,0 +1,48 @@
+.card {
+    width: calc(33.33% - 20px);
+    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #F6F7F8;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(100% - 20px);
+      margin: 10px 0;
+    }
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .card-name {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .card-title {
+    color: #555;
+    margin: 0;
+  }
+  
+  .card-text {
+    margin-top: 10px;
+  }
