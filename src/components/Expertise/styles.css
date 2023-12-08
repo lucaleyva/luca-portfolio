@@ -1,0 +1,39 @@
+/* Expertise Section Styles */
+#expertise {
+    text-align: left;
+    padding: 2em;
+    background-color: #F6F7F8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expertise-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .expertise-item {
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    color: #F6F7F8;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    width: calc(100% - 20px); /* Adjust the percentage based on your design */
+    margin-bottom: 25px; /* Adjust the spacing between items */
+    font-size: 1em; /* Adjust the font size to prevent text spilling */
+    font-weight: bold;
+    height: 100px; /* Set a fixed height for consistency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevent text from spilling out of the box */
+  }
+  
+  @media (min-width: 768px) {
+    .expertise-item {
+      width: calc(25% - 20px); /* Adjust the percentage based on your design */
+    }
+  }

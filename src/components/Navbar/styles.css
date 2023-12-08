@@ -1,3 +1,10 @@
+nav {
+  background-color: #E63946;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -15,9 +22,9 @@
   width: 100%;
 }
 
-.nav-list li a {
+.nav-list a {
   text-decoration: none;
-  color: #fff;
+  color: #F6F7F8;
   padding: 1em;
   transition: color 0.3s ease;
   font-weight: bold;
@@ -32,7 +39,7 @@
 .bar {
   width: 25px;
   height: 3px;
-  background-color: #fff;
+  background-color: #F6F7F8;
   margin: 3px 0;
 }
 
@@ -45,7 +52,7 @@
     position: absolute;
     top: 60px;
     left: 0;
-    background-color: #0984e3;
+    background-color: #E63946;
     z-index: 99;
     padding-top: 20px;
   }
@@ -58,16 +65,24 @@
     display: flex;
   }
 
-  .nav-list li {
-    margin-bottom: 10px;
+  section:not(:first-child) {
+    padding-top: 80px; /* Adjust the value based on your design */
   }
 
-  .nav-list li a {
-    padding: 10px;
-    display: block;
+  .nav-list li {
+    margin-bottom: 10px; /* Adjust the margin to add space between options */
+  }
+ 
+  .nav-list a {
+    text-decoration: none;
+    color: #F6F7F8;
+    transition: color 0.3s ease;
+    padding: 10px; /* Adjust the padding for each option */
+    display: block; /* Ensure each option takes full width */
+    font-weight: bold; /* Make the text bolder */
   }
 }
 
-.nav-list li a:hover {
+.nav-list a:hover {
   color: #2d3436;
 }

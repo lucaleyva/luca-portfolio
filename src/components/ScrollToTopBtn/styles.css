@@ -3,9 +3,9 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #6c5ce7;
+  background-color: #a35ccf;
   border: none;
-  color: #fff;
+  color: #F6F7F8;
   padding: 10px 15px;
   font-size: 1rem;
   cursor: pointer;
@@ -16,5 +16,9 @@
 
 #scrollToTopBtn:hover {
   background-color: #636e72;
-  color: white;
+  color: #F6F7F8;
+}
+
+#scrollToTopBtn {
+  z-index: 9999;
 }

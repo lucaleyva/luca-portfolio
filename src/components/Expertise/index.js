@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import styles from './styles.css';
 
 function Expertise() {
   const [expertiseItems, setExpertiseItems] = useState([
-    { name: "Planning & Execution", color: "#3498db" },
-    { name: "Agile Processes & Technical Practices", color: "#e74c3c" },
-    { name: "Collaboration", color: "#27ae60" },
+    { name: "Planning & Execution", color: "#3066BE" },
+    { name: "Agile Processes & Technical Practices", color: "#DE1A1A" },
+    { name: "Collaboration", color: "#4CB963" },
     // Add more expertise items as needed
   ]);
 
