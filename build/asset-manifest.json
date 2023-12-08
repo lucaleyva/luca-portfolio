@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/luca-portfolio/static/css/main.b9fe156d.css",
+    "main.js": "/luca-portfolio/static/js/main.fa19475e.js",
+    "static/js/496.742aa1e5.chunk.js": "/luca-portfolio/static/js/496.742aa1e5.chunk.js",
+    "static/media/me.jpg": "/luca-portfolio/static/media/me.4020ea69bee86c04aadd.jpg",
+    "index.html": "/luca-portfolio/index.html",
+    "main.b9fe156d.css.map": "/luca-portfolio/static/css/main.b9fe156d.css.map",
+    "main.fa19475e.js.map": "/luca-portfolio/static/js/main.fa19475e.js.map",
+    "496.742aa1e5.chunk.js.map": "/luca-portfolio/static/js/496.742aa1e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9fe156d.css",
+    "static/js/main.fa19475e.js"
+  ]
+}

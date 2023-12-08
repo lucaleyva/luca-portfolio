@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from './styles.css';
+import './styles.css';
 
 function Expertise() {
   const [expertiseItems, setExpertiseItems] = useState([
@@ -10,7 +10,6 @@ function Expertise() {
   ]);
 
   useEffect(() => {
-    // Function to display expertise items
     function displayExpertiseItems() {
       return expertiseItems.map((item) => (
         <div className="expertise-item" style={{backgroundColor: item.color}}>
@@ -23,11 +22,11 @@ function Expertise() {
   }, [expertiseItems]);
 
   return (
-    <section id="expertise">
+    <section id="expertise" role="contentinfo" aria-label="Expertise">
       <h2>Expertise</h2>
-      <div className="expertise-container" id="expertiseContainer">
+      <div className="expertise-container" id="expertiseContainer" role="list" aria-label="List of Expertise">
         {expertiseItems.map((item) => (
-          <div className="expertise-item" style={{backgroundColor: item.color}}>
+          <div className="expertise-item" style={{backgroundColor: item.color}} role="listitem" aria-label={item.name}>
             <p>{item.name}</p>
           </div>
         ))}

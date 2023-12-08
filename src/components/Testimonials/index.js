@@ -37,7 +37,7 @@ const Testimonials = () => {
   const totalPages = Math.ceil(testimonials.length / testimonialsPerPage);
 
   return (
-    <section id="testimonials" className="testimonials-section">
+    <section id="testimonials" className="testimonials-section" role="region" aria-label="Testimonials Section">
       <h2>Testimonials</h2>
       <div className="testimonial-container">
         {currentTestimonials.map((testimonial, index) => (

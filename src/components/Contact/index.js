@@ -1,12 +1,11 @@
 import React from 'react';
 import './styles.css';
 
-
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" role="contentinfo" aria-label="Contact Section">
       <h2 style={{textAlign: 'left'}}>Contact</h2>
-      <form action="https://formspree.io/f/xvojjbpr" method="POST" id="contactForm">
+      <form action="https://formspree.io/f/xvojjbpr" method="POST" id="contactForm" role="form">
         <div className="form-row">
           <label htmlFor="subject">Subject:</label>
           <input name="subject" type="text" placeholder="Your subject.." id="subject" />

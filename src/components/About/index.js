@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles.css';
 
 function About() {
   return (
-    <section id="about" className="about-section">
+    <section id="about" className="about-section" role="contentinfo" aria-label="About Section">
       <h2>About Me</h2>
       <h2>Welcome to a space where growth, transformation, and resilience thrive. <span style={{fontSize: '1.5em'}}>⭐️</span></h2>
 

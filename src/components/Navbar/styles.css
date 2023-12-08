@@ -66,20 +66,20 @@ nav {
   }
 
   section:not(:first-child) {
-    padding-top: 80px; /* Adjust the value based on your design */
+    padding-top: 80px;
   }
 
   .nav-list li {
-    margin-bottom: 10px; /* Adjust the margin to add space between options */
+    margin-bottom: 10px;
   }
  
   .nav-list a {
     text-decoration: none;
     color: #F6F7F8;
     transition: color 0.3s ease;
-    padding: 10px; /* Adjust the padding for each option */
-    display: block; /* Ensure each option takes full width */
-    font-weight: bold; /* Make the text bolder */
+    padding: 10px;
+    display: block;
+    font-weight: bold;
   }
 }
 

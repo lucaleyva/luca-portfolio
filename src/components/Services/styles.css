@@ -1,28 +1,28 @@
-  /* Add this to your existing styles or create a new style block */
-  .energetic-services-section {
-    background-color: #f8f9fa; /* Light background color */
-    padding: 2em;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+.energetic-services-section {
+  background-color: #F6F7F8;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
   
   .section-title {
-    color: #f39c12; /* Energetic orange color */
-    font-size: 2em; /* Larger font size for emphasis */
-    margin-bottom: 1em; /* Add some space between title and text */
+  color: #eb7a01;
+  font-size: 2em;
+  margin-bottom: 1em;
   }
   
   .energetic-text {
-    color: #2d3436; /* Dark text color */
-    font-size: 1.2em; /* Slightly larger text size */
-    line-height: 1.6; /* Improved readability with increased line height */
+  color: #2E3131; 
+  font-size: 1.2em;
+  line-height: 1.6;
   }
+
   
   /* Media query for smaller screens */
   @media (max-width: 768px) {
     .expertise-item {
-      width: calc(100% - 20px); /* Full width for stacked items with margin */
-      margin-bottom: 5px; /* Add space between stacked items */
+      width: calc(100% - 20px);
+      margin-bottom: 5px;
     }
   }
   
@@ -30,3 +30,5 @@
   .expertise-item:hover {
     transform: scale(1.05);
   }
+
+  

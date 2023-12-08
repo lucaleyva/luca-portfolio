@@ -21,19 +21,21 @@
     color: #F6F7F8;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    width: calc(100% - 20px); /* Adjust the percentage based on your design */
-    margin-bottom: 25px; /* Adjust the spacing between items */
-    font-size: 1em; /* Adjust the font size to prevent text spilling */
+    width: calc(100% - 20px);
+    margin-bottom: 25px;
+    font-size: 1em;
     font-weight: bold;
-    height: 100px; /* Set a fixed height for consistency */
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Prevent text from spilling out of the box */
+    overflow: hidden;
   }
-  
+
   @media (min-width: 768px) {
     .expertise-item {
-      width: calc(25% - 20px); /* Adjust the percentage based on your design */
+      width: calc(25% - 20px);
     }
   }
+
+
