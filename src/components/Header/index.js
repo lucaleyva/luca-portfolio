@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import profileImage from '../../assets/images/me.jpg';
+import profileImage from '../../assets/images/Me2.jpg';
 import './styles.css';
 import Typewriter from 'typewriter-effect';
 
@@ -31,7 +31,7 @@ function Header() {
             />
           </p>
         </div>
-        <img src={profileImage} alt="picture of Luca Leyva with his child" className="profile-image" /> 
+        <img src={profileImage} alt="picture of Luca Leyva" className="profile-image" /> 
       </div>
     </header>
   );
