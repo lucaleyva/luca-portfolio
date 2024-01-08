@@ -1,20 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import profileImage from '../../assets/images/Me2.jpg';
+import profileImage from '../../assets/images/Me3.jpg';
 import './styles.css';
 import Typewriter from 'typewriter-effect';
 
 function Header() {
-  const [headerText, setHeaderText] = useState('Agile & Leadership Coach');
   const headerTexts = ['Agile & Leadership Coach', 'Full Stack Developer', 'Extreme Programming (XP) Practitioner'];
-  let index = 0;
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      index = index + 1 === headerTexts.length ? 0 : index + 1;
-      setHeaderText(headerTexts[index]);
-    }, 2000);
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <header>
