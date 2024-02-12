@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './styles.css';
 
 const Card = ({ card }) => (
@@ -10,6 +10,6 @@ const Card = ({ card }) => (
         <p className="card-text">{card.text}</p>
       </div>
     </div>
-  );
+);
 
 export default Card;
